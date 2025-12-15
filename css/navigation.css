@@ -1,8 +1,21 @@
+.navigation {
+    position: relative;
+}
+
+.navigation::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5px; 
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
 .navigation-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: var(--spacing-16) 0 !important;
 }
 
 .navigation-logo {
