@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     gap: var(--spacing-16);
+    margin-bottom: 10rem !important;
 }
 
 .detail-heading {
@@ -29,9 +30,8 @@
 .detail-options {
     position: absolute;
     top: 0;
-    width: 320px;
-    margin: 0 20px;
-    padding: var(--spacing-8) 0;
+    width: 100%;
+    padding: var(--spacing-8) 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -105,7 +105,7 @@
     gap: var(--spacing-8);
 }
 
-.detail-mid p {
+.detail-mid a {
     color: var(--color-grey);
     text-decoration: underline;
 }
@@ -121,4 +121,33 @@
 
 .detail-stars i:last-of-type {
     color: var(--color-grey);
+}
+
+.detail-cta {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--spacing-8);
+}
+
+.detail-cta button {
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--color-yellow);
+    padding: var(--spacing-16) 0;
+    color: var(--color-off-white);
+    border-radius: var(--spacing-24);
+    border: none;
+    font-size: var(--fs-normal);
+    font-weight: var(--fw-bold);
+    width: 100%;
+}
+
+.detail-cta p span {
+    color: var(--color-yellow);
+    text-decoration: underline;
+}
+
+.detail-cta p, .detail-cta span {
+    font-size: 12px;
 }

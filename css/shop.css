@@ -28,6 +28,7 @@
     padding: var(--spacing-8) var(--spacing-24);
     color: var(--color-yellow);
     border-radius: var(--spacing-24);
+    font-size: var(--fs-normal);
 }
 
 .shop-filter-btn-active {
