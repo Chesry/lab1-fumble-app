@@ -1,0 +1,37 @@
+.shop {
+    /* Navigatie hoogte */
+    margin-top: 110.5px;
+}
+
+.shop-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: var(--spacing-16);
+}
+
+.shop-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.shop-top p {
+    text-decoration: underline;
+}
+
+.shop-filter-btn {
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    background-color: transparent;
+    border: 1px solid var(--color-yellow);
+    padding: var(--spacing-8) var(--spacing-24);
+    color: var(--color-yellow);
+    border-radius: var(--spacing-24);
+}
+
+.shop-filter-btn-active {
+    background-color: var(--color-yellow);
+    font-weight: var(--fw-bold);
+    color: var(--color-off-white);
+}
