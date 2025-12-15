@@ -1,0 +1,29 @@
+:root {
+    /* Colors */
+    --color-green: #0C3C3B;
+    --color-yellow: #FFC53E;
+    --color-off-black: #171717;
+    --color-off-white: #F9F3F1;
+
+    /* Spacings */
+    --spacing-8: 8px;
+    --spacing-16: 16px;
+    --spacing-24: 24px;
+    --spacing-32: 32px;
+    --spacing-48: 48px;
+    --spacing-64: 64px;
+
+    /* Font sizes */
+    --fs-h1: 38px;
+    --fs-h2: 31px;
+    --fs-h3: 25px;
+    --fs-normal: 16px;
+
+    /* Font styling */
+    --fw-extra-bold: 800;
+    --fw-bold: 700;
+    --fw-semi-bold: 600;
+    --fw-medium: 500;
+    --fw-regular: 400;
+    --fw-light: 300;
+}
