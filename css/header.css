@@ -1,6 +1,9 @@
 .header {
     display: flex;
     flex-direction: column;
+
+    /* Navigatie hoogte */
+    margin-top: 118.5px;
 }
 
 .header-top {
