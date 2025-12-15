@@ -1,0 +1,81 @@
+.detail {
+    /* Top navigatie hoogte */
+    margin-top: 110.5px;
+}
+
+.detail-img-container {
+    height: 300px;
+    position: relative;
+}
+
+.detail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detail-options {
+    position: absolute;
+    top: 0;
+    width: 320px;
+    margin: 0 20px;
+    padding: var(--spacing-8) 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.detail-options-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail-option-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-8);
+}
+
+.detail-option-bottom .detail-dot:nth-child(n+2) {
+    background-color: var(--color-grey); 
+}
+.detail-dot {
+    background-color: var(--color-green);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.detail-icon {
+    font-size: var(--spacing-24);
+    color: var(--color-green);
+}
+
+.detail-option-back {
+    background-color: var(--color-yellow);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-option-back i {
+    color: var(--color-off-white);
+}
+
+.detail-options-left {
+    display: flex;
+    gap: var(--spacing-8);
+    align-items: center;
+}
+
+.detail-options-left button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
