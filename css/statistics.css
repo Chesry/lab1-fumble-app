@@ -1,0 +1,10 @@
+.statistics-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: var(--spacing-16);
+}
+
+.statistics-col {
+    text-align: center;
+}

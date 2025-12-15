@@ -16,10 +16,6 @@
     font-weight: var(--fw-light);
 }
 
-.header-top h1 {
-    line-height: 1;
-}
-
 .header-img-container {
     height: 150px;
 }

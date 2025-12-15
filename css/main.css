@@ -17,8 +17,10 @@
 /*---------------------------------------*/
 /* # COMPONENTS (UI)                     */
 /*---------------------------------------*/
-@import url("navigation.css");
+@import url("top-navigation.css");
 @import url("header.css");
+@import url("statistics.css");
+@import url("bottom-navigation.css");
 /*---------------------------------------*/
 /* # OBJECTS (layout structures)         */
 /*---------------------------------------*/

@@ -1,9 +1,10 @@
-.navigation {
+.top-navigation {
     position: fixed;
     width: 100%;
+    background-color: var(--color-off-white);
 }
 
-.navigation::after {
+.top-navigation::after {
     content: "";
     position: absolute;
     left: 0;
@@ -13,18 +14,19 @@
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.navigation-container {
+.top-navigation-container {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-16);
 }
 
-.navigation-flex {
+.top-navigation-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.navigation-logo {
-    font-size: 2em;
+.top-navigation-icon {
+    font-size: 28px;
+    cursor: pointer;
 }
