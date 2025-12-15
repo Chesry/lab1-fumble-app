@@ -1,5 +1,5 @@
 .shop {
-    /* Navigatie hoogte */
+    /* Top navigatie hoogte */
     margin-top: 110.5px;
 }
 
@@ -36,9 +36,18 @@
     color: var(--color-off-white);
 }
 
-.shop-card, .shop-card-text {
+.shop-card, .shop-card-text, .shop-bottom {
     display: flex;
     flex-direction: column;
+}
+
+.shop-bottom {
+    gap: var(--spacing-16);
+}
+
+.shop-bottom a:last-of-type {
+    /* Bottom navigatie hoogte */
+    margin-bottom: 88px;
 }
 
 .shop-card {
