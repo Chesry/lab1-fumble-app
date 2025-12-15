@@ -59,7 +59,7 @@
 }
 
 .detail-dot {
-    background-color: var(--color-green);
+    background-color: var(--color-yellow);
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -67,7 +67,7 @@
 
 .detail-icon {
     font-size: var(--spacing-24);
-    color: var(--color-green);
+    color: var(--color-off-white);
 }
 
 .detail-option-back {
