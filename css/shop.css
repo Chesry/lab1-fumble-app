@@ -1,6 +1,9 @@
 .shop {
     /* Top navigatie hoogte */
     margin-top: 110.5px;
+    
+    /* Bottom navigatie hoogte */
+    margin-bottom: 88px;
 }
 
 .shop-container {
@@ -44,11 +47,6 @@
 
 .shop-bottom {
     gap: var(--spacing-16);
-}
-
-.shop-bottom a:last-of-type {
-    /* Bottom navigatie hoogte */
-    margin-bottom: 88px;
 }
 
 .shop-card {
