@@ -33,6 +33,10 @@
     color: var(--color-off-white) !important;
 }
 
+.bottom-navigation-item {
+    line-height: 0;
+}
+
 .bottom-navigation-item-active {
     background-color: var(--color-yellow);
     padding: 8px;
