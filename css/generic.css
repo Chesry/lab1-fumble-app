@@ -15,5 +15,4 @@ html {
     font-family: "Poppins", sans-serif;
     background-color: var(--color-off-white);
     color: var(--color-green);
-    overflow-x: hidden;
 }
