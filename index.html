@@ -12,7 +12,7 @@
     <!-- Favicon -->
     <link rel="icon" href="assets/other/favicon.ico" type="image/x-icon">
     <!-- Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Styling -->
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -27,7 +27,7 @@
                 <a href="index.html">
                     <img src="assets/other/logo-icon-green.svg" alt="Logo icon Fumble green">
                 </a>
-                <i class="top-navigation-icon bi bi-list"></i>
+                <i class="top-navigation-icon fa-solid fa-bars"></i>
             </div>
         </div>
     </nav>
@@ -67,10 +67,26 @@
     </main>
     <div class="bottom-navigation">
         <div class="bottom-navigation-container container">
-            <a href="#" class="bottom-navigation-item"><i class="bottom-navigation-icon bi bi-house-door"></i></a>
-            <a href="#" class="bottom-navigation-item"><i class="bottom-navigation-icon bi bi-search"></i></a>
-            <a href="#" class="bottom-navigation-item"><i class="bottom-navigation-icon bi bi-shop"></i></a>
-            <a href="#" class="bottom-navigation-item"><i class="bottom-navigation-icon bi bi-person"></i></a>
+            <div class="bottom-navigation-item-container">
+                <a href="#" class="bottom-navigation-item-active">
+                    <i class="bottom-navigation-icon bottom-navigation-icon-active fa-solid fa-house"></i>
+                </a>
+            </div>
+            <div class="bottom-navigation-item-container">
+                <a href="#">
+                    <i class="bottom-navigation-icon fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+            <div class="bottom-navigation-item-container">
+                <a href="#">
+                    <i class="bottom-navigation-icon fa-solid fa-shop"></i>
+                </a>
+            </div>
+            <div class="bottom-navigation-item-container">
+                <a href="#">
+                    <i class="bottom-navigation-icon fa-solid fa-user"></i>
+                </a>
+            </div>
         </div>
     </div>
 </body>
