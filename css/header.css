@@ -13,16 +13,6 @@
     gap: var(--spacing-8);
 }
 
-.header-top {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-8);
-}
-
-.header-top p {
-    font-weight: var(--fw-light);
-}
-
 .header-img-container {
     height: 150px;
 }
