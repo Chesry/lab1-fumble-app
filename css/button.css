@@ -1,0 +1,21 @@
+.button, .button-outline {
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    padding: var(--spacing-16) 0;
+    border-radius: var(--spacing-24);
+    border: 1px solid var(--color-yellow);
+    font-size: var(--fs-normal);
+    font-weight: var(--fw-bold);
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    background-color: var(--color-yellow);
+    color: var(--color-off-white);
+}
+
+.button-outline {
+    background-color: transparent;
+    color: var(--color-yellow);
+}

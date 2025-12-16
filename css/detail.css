@@ -133,19 +133,6 @@
     gap: var(--spacing-8);
 }
 
-.detail-cta button {
-    cursor: pointer;
-    font-family: "Poppins", sans-serif;
-    background-color: var(--color-yellow);
-    padding: var(--spacing-16) 0;
-    color: var(--color-off-white);
-    border-radius: var(--spacing-24);
-    border: none;
-    font-size: var(--fs-normal);
-    font-weight: var(--fw-bold);
-    width: 100%;
-}
-
 .detail-cta p span {
     color: var(--color-yellow);
     text-decoration: underline;

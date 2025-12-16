@@ -34,3 +34,8 @@
     font-size: 24px;
     cursor: pointer;
 }
+
+.top-navigation-link {
+    line-height: 0;
+    color: var(--color-green);
+}
