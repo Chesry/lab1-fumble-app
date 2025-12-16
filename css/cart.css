@@ -15,7 +15,11 @@
     text-align: center;
 }
 
-.cart-container i {
+.cart-container a {
+    align-self: flex-start;
+}
+
+.cart-icon {
     font-size: 72px;
 }
 
