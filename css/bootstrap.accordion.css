@@ -1,0 +1,80 @@
+input,
+textarea,
+select {
+    border-radius: 0;
+    background-color: transparent;
+    color: var(--color-green);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: transparent;
+    border-color: var(--color-green);
+    box-shadow: none;
+    outline: none;
+}
+
+label {
+    color: var(--color-green);
+}
+
+/* Styling "Vraag" */
+.accordion-button {
+    padding: 0 !important;
+    padding-bottom: 5px !important;
+    border-radius: 0 !important;
+    color: var(--color-green) !important;
+    border-bottom: 1px solid var(--color-green) !important;
+    background-color: var(--color-off-white) !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--color-off-white) !important;
+    color: var(--color-green) !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid var(--color-green) !important;
+    font-weight: var(--fw-semi-bold) !important;
+}
+
+/* Styling "Antwoord" */
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-body {
+    padding: 0 !important;
+    padding-top: 5px !important;
+    color: var(--color-green) !important;
+    background-color: var(--color-off-white) !important;
+}
+
+.accordion-body-list {
+    padding-left: var(--spacing-16) !important;
+}
+
+.accordion-text {
+    color: var(--color-green);
+    list-style-type: disc;
+}
+
+.accordion-text li::marker {
+    color: var(--color-yellow);
+}
+
+/* Animatie */
+.accordion-button::after {
+    content: "+" !important;
+    background-image: none !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "-" !important;
+    background-image: none !important;
+}

@@ -39,3 +39,7 @@
     line-height: 0;
     color: var(--color-green);
 }
+
+.top-navigation-logo {
+    line-height: 0;
+}
