@@ -56,6 +56,8 @@
 
 .shop-card-img-container {
     height: 200px;
+    border-radius: var(--spacing-16);
+    background-color: var(--color-green);
 }
 
 .shop-card-img {
