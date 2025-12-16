@@ -122,8 +122,8 @@
     color: var(--color-yellow);
 }
 
-.detail-stars i:last-of-type {
-    color: var(--color-grey);
+.detail-stars-grey {
+    color: var(--color-grey) !important;
 }
 
 .detail-cta {
